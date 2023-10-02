@@ -28,7 +28,7 @@ header {
 }
 
 header > h1 {
-    font-size: larger;
+    font-size: 5vw;
     font-family: cursive;
 }
 
@@ -45,6 +45,7 @@ nav > ul {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
+    border-bottom: 0.3rem black solid;
 }
 
 nav > ul > li {
@@ -55,15 +56,29 @@ nav > ul > li {
     border-bottom: 0;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-    font-family: sans-serif;
+    font-family: monospace;
+    font-size: 4vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+nav > ul > li > a {
+    color: black;
+    text-decoration: none;
 }
 
 nav > ul > li[active="true"] {
     background-color: black;
+}
+
+nav > ul > li[active="true"] > a {
     color: white;
 }
 
 div#content {
     width: 100vw;
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }

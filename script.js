@@ -12,7 +12,7 @@ function init(){
 }
 
 function updatePage() {
-    fetch(document.querySelector('nav > ul > li[active="true"]').getAttribute('content'))
+    fetch(document.querySelector('nav > ul > li[active="true"] > a').getAttribute('content'))
     .then( response => response.text())
     .then( text => document.querySelector('div#content').innerHTML = text)
 }
