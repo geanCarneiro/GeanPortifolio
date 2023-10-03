@@ -23,7 +23,7 @@ div#content > section > div.item-portifolio {
     flex-direction: column;
 }
 
-div#content > section > div.item-portifolio > img {
+div#content > section > div.item-portifolio > img, svg {
     width: 100%;
     margin-bottom: 0.5rem;
     border-radius: 25%;
