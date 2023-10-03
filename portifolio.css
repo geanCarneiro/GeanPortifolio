@@ -19,8 +19,3 @@ div#content > section > div.item-portifolio > img {
     margin-bottom: 0.5rem;
     border-radius: 25%;
 }
-
-div#content > section > div.item-portifolio > a {
-    color: black;
-    text-decoration: none;
-}
