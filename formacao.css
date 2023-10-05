@@ -1,0 +1,23 @@
+div#content {
+    width: calc(100vw - 6rem);
+    padding: 3rem;
+    padding-top: 1rem;
+}
+
+div#content > h1 {
+    text-align: center;
+}
+
+.formacao-item {
+    display: flex;
+}
+
+.formacao-item > img {
+    height: 100%;
+    margin-right: 1rem;
+    border-radius: 1rem;
+}
+
+.formacao-item > .infos > h4 {
+    margin: 0;
+}
