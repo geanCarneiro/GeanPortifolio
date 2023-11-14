@@ -1,4 +1,4 @@
-div#content > h1 {
+div#content > h2 {
     text-align: center;
 }
 
@@ -23,7 +23,7 @@ div#content > section > div.item-portifolio > img, div#content > section > div.i
     border-radius: 25%;
 }
 
-div#content > section > div.item-portifolio > h4 {
+div#content > section > div.item-portifolio > h3 {
     margin: 0;
     width: 100%;
     text-align: center;
